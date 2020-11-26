@@ -19,14 +19,12 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
 import { MatRadioModule } from '@angular/material/radio';
 import { CambiocontraseniaComponent } from './component/logeado/cambiocontrasenia/cambiocontrasenia.component';
-import { RestablecerContrasenaComponent } from './component/logeado/restablecer-contrasena/restablecer-contrasena.component';
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
     CambiocontraseniaComponent,
-    RestablecerContrasenaComponent,
   ],
   imports: [
     BrowserModule,

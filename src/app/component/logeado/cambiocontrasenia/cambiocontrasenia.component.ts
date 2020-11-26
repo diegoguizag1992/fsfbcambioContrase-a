@@ -29,7 +29,7 @@ export class CambiocontraseniaComponent implements OnInit {
     if (!this.resolvePassword.invalid) {
 
 
-      this.passwordService.finalizarOrden(this.resolvePassword.value).subscribe(
+      this.passwordService.changePassword(this.resolvePassword.value).subscribe(
         (data) => {
 
           swal({
